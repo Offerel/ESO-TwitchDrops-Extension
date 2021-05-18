@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "ESO TwitchDrops",
+	"description": "This extension checks at browser startup via https://eso-hub.com if Twitch Drops for 'Elder Scrolls Online' are currently active and/or if a current event is taking place.",
+	"version": "0.9.4",
+	"icons": {
+		"48": "images/eso.png"
+	},
+	"homepage_url": "https://github.com/Offerel/ESO-TwitchDrops-Extension",
+	"background": {
+		"scripts": ["scripts/background.js"]
+	},
+	"browser_action": {
+		"default_icon": "images/eso.png",
+		"default_title": "ESO TwitchDrops",
+		"default_popup": "scripts/popup.html"
+	},
+	"permissions": [
+		"https://eso-hub.com/*",
+		"storage",
+		"notifications"
+		]
+}

@@ -38,6 +38,7 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+web-ext-artifacts/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -348,3 +349,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+web-ext-artifacts/eso_twitchdrops-0.9.3.zip
+.gitignore

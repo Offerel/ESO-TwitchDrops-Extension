@@ -1,0 +1,24 @@
+body {
+    width: 200px;
+    font-family: sans-serif;
+}
+
+#title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.lbl {
+    font-weight: 600;
+    width: 50px;
+    position: absolute;
+}
+.val {
+    position: relative;
+    left: 50px;
+}
+.val > a {
+    text-decoration: none;
+}
+#esoresults > div {
+    margin: 5px 0;
+}

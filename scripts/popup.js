@@ -16,9 +16,26 @@ function updatePopup() {
 		events.appendChild(eventl);
 
 		if(data.drops.title.includes('inactive') !== false) {
-			dropl.style.color = 'red';
+			dropl.style.color = '#757575';
+			dropl.style.background = '#dbdbdb';
+			dropl.style.borderColor = '#757575';
 		} else {
-			dropl.style.color = 'green';
+			dropl.style.color = '#267b14';
+			dropl.style.background = '#b5dda7';
+			dropl.style.borderColor = '#267b14';
+			
+		}
+		
+		console.log(data.events.title.length);
+		
+		if(data.events.title.length < 0) {
+			eventl.style.color = '#757575';
+			eventl.style.background = '#dbdbdb';
+			eventl.style.borderColor = '#757575';
+		} else {
+			eventl.style.color = '#267b14';
+			eventl.style.background = '#b5dda7';
+			eventl.style.borderColor = '#267b14';
 			
 		}
 	});

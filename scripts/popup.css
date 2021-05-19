@@ -1,11 +1,17 @@
 body {
-    width: 200px;
-    font-family: sans-serif;
+	width: 215px;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom, #ffffff 3%,#e8e8e8 100%);
+	margin: 0;
+	padding: 0;
 }
-
+#esoresults {
+	padding: 5px;
+}
 #title {
-    font-size: 2em;
-    text-transform: uppercase;
+    font-size: .85em;
+    border-bottom: 1px dotted black;
+    opacity: 50%;
 }
 .lbl {
     font-weight: 600;
@@ -17,8 +23,17 @@ body {
     left: 50px;
 }
 .val > a {
-    text-decoration: none;
+	text-decoration: none;
+	background: #46caca;
+	padding: 3px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	width: calc(100% - 60px);
+    display: inline-block;
+	text-align: center;
 }
-#esoresults > div {
-    margin: 5px 0;
+#esoresults > div:not(#title) {
+	margin: 10px 0;
 }

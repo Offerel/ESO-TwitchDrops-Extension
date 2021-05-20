@@ -5,3 +5,5 @@ This extension checks at browser startup via https://eso-hub.com if Twitch-Drops
 All data for this extension comes from the website www.eso-hub.com by their permission. The developer only uses the data from www.eso-hub.com to inform the user about new events and twitch drops as soon as possible. There are no further dependencies to www.eso.hub.com or to Elder Scrolls Online.
 
 © Copyright 2021 - All retrieved data is protected by copyright. All rights, including reproduction, publication, editing and translation, are reserved by www.eso-hub.com.
+
+You can download the Firefox version also from Mozilla [AMO for Firefox](https://addons.mozilla.org/firefox/addon/eso-twitchdrops/) or for Microsoft Edge from the Microsoft Store.For using this in Chrome or other Chromium derivates, you can either use the version from the Microsoft Store or sideload the \*.crx file from the releases page.

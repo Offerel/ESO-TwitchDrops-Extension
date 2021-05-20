@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "ESO TwitchDrops",
 	"description": "This extension checks at browser startup via https://eso-hub.com if Twitch Drops for 'Elder Scrolls Online' are currently active and/or if a current event is taking place.",
-	"version": "0.9.5",
+	"version": "1.0.0",
 	"icons": {
 		"48": "images/eso.png"
 	},

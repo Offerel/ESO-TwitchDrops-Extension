@@ -7,12 +7,14 @@ function updatePopup() {
 		dropl.innerText = data.drops.title;
 		dropl.href = data.drops.href;
 		dropl.target = '_blank';
+		dropl.title = data.drops.title;
 		drops.appendChild(dropl);
 
 		let eventl = document.createElement('a');
 		eventl.innerText = data.events.title;
 		eventl.href = data.events.href;
 		eventl.target = '_blank';
+		eventl.title = data.events.title;
 		events.appendChild(eventl);
 
 		if(data.drops.title.includes('inactive') !== false) {
@@ -26,9 +28,7 @@ function updatePopup() {
 			
 		}
 		
-		console.log(data.events.title.length);
-		
-		if(data.events.title.length < 0) {
+		if(data.events.title.includes('no ongoing') !== false) {
 			eventl.style.color = '#757575';
 			eventl.style.background = '#dbdbdb';
 			eventl.style.borderColor = '#757575';

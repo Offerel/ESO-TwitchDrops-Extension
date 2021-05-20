@@ -12,7 +12,7 @@
 	},
 	"browser_action": {
 		"browser_style": true,
-		"default_icon": "images/eso.png",
+		"default_icon": "images/treasure-chest96.png",
 		"default_title": "ESO TwitchDrops",
 		"default_popup": "scripts/popup.html"
 	},

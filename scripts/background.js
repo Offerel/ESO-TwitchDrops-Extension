@@ -38,6 +38,19 @@ function init() {
 	});
 }
 
+function notify(notid, message, title="ESO TwitchDrops", url="") {
+	try {
+		chrome.notifications.create(notid, {
+			"type": "basic",
+			"title": title,
+			"iconUrl": "images/treasure-chest96.png",
+			"message": message
+		});
+	} catch(error) {
+		loglines = logit(error);
+	}
+}
+
 function openDrops(id) {
 	try {
 		chrome.storage.local.get(['drops'], function (data) {
